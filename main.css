@@ -1,0 +1,84 @@
+:root{
+    --red: #ff0400;
+    --white: #ffffff;
+    --black: #000000;
+}
+
+* {
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+
+body{
+    background: var(--bg)
+}
+
+ul{
+    font-family: 'Helvetica Neue';
+    
+}
+
+li{
+    font-size: 1.2rem;
+    
+}
+
+.list{
+    list-style-type: square;
+    font-size: 1.2rem;
+    
+
+}
+
+.light-theme{
+    --bg: var(--white);
+    --fontcolor: var(--black);
+    --btnBg: var(--red);
+    --btnFontColor: var(--black);
+}
+
+.reddark-theme {
+    --bg: var(--black);
+    --fontColor: var(--red);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+
+}
+
+.btn:focus { outline-style: none; }
+
+.center {
+    text-align: center;
+
+}
+
+.rodape {
+    flex-shrink: 0;
+    text-align: center;
+    padding: 20rem;
+    
+    
+}
+
+#msg {
+    font-size: 1.7rem;
+    text-align: center;
+    font-style: italic;
+
+}
+
+.linha {
+    align-items: center;
+}
